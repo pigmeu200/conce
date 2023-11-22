@@ -179,3 +179,28 @@ input:hover {
     color: rgb(124, 124, 124);
     margin-left: 20px;
 }
+
+@media screen and (max-width: 1920px){
+    section {
+        margin-left: 400px;
+    }
+    
+}
+@media screen and (max-width: 1280px){
+    section {
+        margin-left: 150px;
+    }
+    
+}
+@media screen and (max-width: 1296px){
+    section {
+        margin-left: 150px;
+    }
+
+}
+@media screen and (max-width: 1440px){
+    section {
+        margin-left: 200px;
+    }
+    
+}
