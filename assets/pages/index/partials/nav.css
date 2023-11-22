@@ -1,0 +1,118 @@
+nav{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 1000px;
+    background-color: #0e0f1f;
+    margin-bottom: -100px;
+}
+
+nav img {
+    height: 50px;
+
+}
+
+h1 {
+    color: var(--white);
+    align-items: center;
+    width: 200px;
+    margin-right:30px;
+}
+
+/* barra de pesquisa  */
+
+.barra-pesquisa {
+    text-align: center;
+    align-items: center;
+    margin-right: 50px;
+}
+.barra-pesquisa input{
+    border: 0.8px solid rgba(255, 255, 255, 0.589);
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    background-color: #1f1f33;
+    color: aqua;
+    outline: none;
+}
+
+/* end barra de pesquisa  */
+
+/* valor */
+
+.valor {
+    padding-left: 10px;
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: #1f1f33;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.valor p{
+    margin-left: 35px;
+    
+}
+
+.valor i {
+    font-size: 25px;
+    color: green;
+}
+
+/* end valor */
+
+/* icons */
+.icons {
+    cursor: pointer;
+    font-size: 25px;
+    color: var(--white);
+
+}
+
+.icons .bi.bi-car-front{
+    margin-left: 30px;
+    margin-right: 8px;
+}
+.icons .bi.bi-car-front:hover{
+    transition: .5s;
+    color: gray;
+}
+
+.bi.bi-cart:hover {
+    transition: .5s;
+    color: gray;
+}
+
+/* end icons */
+
+
+
+@media screen and (max-width: 1920px){
+    nav {
+        margin-left: 400px;
+    }
+    
+}
+@media screen and (max-width: 1280px){
+    nav {
+        margin-left: 150px;
+    }
+    
+}
+@media screen and (max-width: 1296px){
+    nav {
+        margin-left: 150px;
+    }
+
+}
+@media screen and (max-width: 1440px){
+    nav {
+        margin-left: 200px;
+    }
+    
+}
